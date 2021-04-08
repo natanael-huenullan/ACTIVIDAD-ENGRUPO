@@ -1,0 +1,16 @@
+body{
+    color:paleturquoise;
+ }
+
+ .form-control, .btn{
+     height: 4rem;
+     line-height: initial;
+ }
+
+ .form-text{
+     color:skyblue;
+ }
+
+ .btn{
+     background-color:rgb(33, 43, 133);
+ }
