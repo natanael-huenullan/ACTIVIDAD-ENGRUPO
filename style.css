@@ -1,7 +1,3 @@
-body{
-    color:paleturquoise;
- }
-
  .form-control, .btn{
      height: 4rem;
      line-height: initial;
@@ -12,5 +8,44 @@ body{
  }
 
  .btn{
-     background-color:rgb(33, 43, 133);
+     background-color:purple;
+ }
+
+ #margen-barra{
+     height: 2rem;
+     margin-top: 5px;
+ }
+ #margen-boton{
+     height: 2rem;
+     margin-top: 5px;
+ }
+
+ #padding-barra2{
+    padding: 15px;
+}
+
+.carousel-caption{
+
+    background: rgba(0,0,0,0.500);
+}
+
+.fondo{
+    background-image: linear-gradient(#65C7F7,#636FA4);
+}
+
+html{
+    padding-bottom: 233px;
+}
+
+#carouselExampleCaptions{
+    border: solid black;
+}
+
+h1{
+    text-align: center;
+    text-decoration: black;
+}
+
+label{
+    color:paleturquoise;
  }
