@@ -33,7 +33,7 @@
     background-image: linear-gradient(#65C7F7,#636FA4);
 }
 
-html{
+.padding-html{
     padding-bottom: 233px;
 }
 
@@ -41,11 +41,41 @@ html{
     border: solid black;
 }
 
+#carouselExampleControls{
+
+    border: solid black;
+}
+
 h1{
     text-align: center;
     text-decoration: black;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+p{
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 label{
     color:paleturquoise;
+ }
+
+ #trabajo-3{
+
+    padding-top: 100px;
+    text-align:left;
+    padding-left: 50px;
+ }
+
+ #move{
+
+   padding-top: 100px;
+   padding-left: 50px;
+   padding-right: 200px;
+
+ }
+
+ #centrado-h1-trabajo3{
+
+    text-align: left;
  }
