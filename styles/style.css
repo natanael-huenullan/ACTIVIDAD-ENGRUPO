@@ -8,7 +8,8 @@
  }
 
  .btn{
-     background-color:purple;
+     background-color: rgb(red, rgb(16, 4, 29), blue);
+     padding-bottom: 10px;
  }
 
  #margen-barra{
@@ -36,6 +37,11 @@
 .padding-html{
     padding-bottom: 233px;
 }
+
+.padding-html2{
+    padding-bottom: 0px;
+}
+
 
 #carouselExampleCaptions{
     border: solid black;
@@ -80,9 +86,7 @@ label{
     text-align: left;
  }
 
- #color{
-     background-color: white;
- }
+ 
 
  #navbar-trabajos{
      
@@ -90,6 +94,28 @@ label{
     padding-top: 2rem;
     padding-bottom: 0rem;
  }
+ /*
+ #lista-mecanicos{
+
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin-top: 250px;
+ }
+
+ #div-mecanico{
+
+    padding-left: 100px;
+    padding-bottom: 330px;
+
+
+ }
+
+ 
+*/
 
 
 

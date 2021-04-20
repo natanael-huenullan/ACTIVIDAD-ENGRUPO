@@ -1,0 +1,71 @@
+
+#TablaMecanicos{
+ 
+    padding-bottom: 470px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+
+
+#MECANICO1{
+  
+    padding-top: 50px;
+    padding-bottom: 700px;
+    
+}
+
+#MECANICO2{
+
+    padding-top: 10px;
+    padding-bottom: 700px;
+    
+}
+
+#MECANICO3{
+
+    padding-top: 10px;
+    padding-bottom: 700px;
+    
+}
+
+img{ 
+    float:left;
+    height: 500px;
+    width: 460px;
+    margin-left: 30px;
+    border: solid;
+
+}
+
+table{
+    margin-top: 100px;
+    margin-left: 30px;
+    
+}
+
+#th1 , #th2 , #th3 {
+    font-size: 22px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+q{
+    float: right;
+    margin-top: 50px;
+    margin-right: 130px;
+    font-size: 20px;
+}
+
+.regresar{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.P1, .P2, .P3{
+    font-size: 20px;
+    margin-left: 500px;
+    padding: 50px;
+    margin-right: 60px;
+ }
+
