@@ -22,7 +22,7 @@
                 <a class="nav-link active" aria-current="page" href="#">iniciar sesion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Perfil</a>
+                <a class="nav-link" href="Perfil.html">Perfil</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -88,6 +88,56 @@
       </div>
     </div>
   </div>
+
+ <!-- FORULARIO (POR TERMINAR) -->
+ <div class="container">] <div class=" text-center mt-5 ">
+  <h1>¡Contactanos!</h1>
+</div>
+<div class="row ">
+  <div class="col-lg-7 mx-auto">
+      <div class="card mt-2 mx-auto p-4 bg-light">
+          <div class="card-body bg-light">
+              <div class="container">
+                  <form id="contact-form" role="form">
+                      <div class="controls">
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <div class="Formulario"> <label>Nombre *</label for="Nombre"> <input id="Nombre" type="text" name="name" class="form-control" placeholder="Porfavor ingresa tu nombre *" required="required" data-error="Se requiere de un nombre."> </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="Formulario"> <label>Fono*</label for="Fono"> <input id="Fono" type="text" name="Fono" class="form-control" placeholder="Porfavor ingresa tu fono *" required="required" data-error="Se requiere de un fono."> </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <div class="Formulario"> <label>Email *</label for="Email"> <input id="Email" type="email" name="email" class="form-control" placeholder="Porfavor ingresa tu email *" required="required" data-error="Email invalido."> </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div> <label for="Categoria">Selecciona la categoria *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                          <option value="" selected disabled>--Seleccione categoria--</option>
+                                          <option>Interiores</option>
+                                          <option>Pintado/repintado</option>
+                                          <option>Reparaciones/Mantenimiento</option>
+                                          <option>Otro asunto</option>
+                                      </select> </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="form-group"> <label for="form_message">Mensaje *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Escribe tu mensaje aqui." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                              </div>
+                              <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Enviar mensaje"> </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div> 
+  </div>
+</div>
+</div>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
